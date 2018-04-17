@@ -221,7 +221,7 @@ public class DrugRecyclerView extends RecyclerView.Adapter<DrugRecyclerView.Drug
         String desc = cursor.getString(cursor.getColumnIndex(DESC));
         String dosage = cursor.getString(cursor.getColumnIndex(QUANTITY));
         String interval = cursor.getString(cursor.getColumnIndex(INTERVAL));
-        
+
         String letter = name.substring(0,1);
         String lettr = letter.toUpperCase();
 
